@@ -1,0 +1,36 @@
+.container {
+    /* display: flex; */
+    flex-direction: column;
+    padding: 22px;
+    /* align-items: center; */
+    margin: auto;
+
+    border-radius: 15px;
+    max-width: 370px;
+    background-color: var(--white);
+}
+
+.container-image-qrcode img {
+    border-radius: 15px;
+    width: 100%;
+}
+
+.container>h2,p {
+    text-align: center;
+}
+
+.container h2 {
+    
+    color: var(--dark-blue);
+    font-weight: 700;
+    padding: 25px 15px 10px 15px;
+
+}
+
+.container p {
+    color: var(--grayish-blue);
+    font-weight: 400;
+    padding: 10px 25px;
+    margin-bottom: 10px;
+
+}
